@@ -1,0 +1,2 @@
+[15-Feb-2018 09:55:25 America/Denver] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/crecente/public_html/newlms/LMS_V2/index.php on line 50
+[15-Feb-2018 09:55:50 America/Denver] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/crecente/public_html/newlms/LMS_V2/index.php on line 50
