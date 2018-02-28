@@ -14,9 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
-Route::get('home', function () {
-    return view('home');
-});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('how-it-works', function () {
     return view('how-it-works');
 });
@@ -33,4 +35,11 @@ Route::get('earning-guide', function () {
 
 Route::get('contact', function () {
     return view('contact');
+});
+
+Route::get('account', function () {
+    if(\Illuminate\Support\Facades\Auth::check()){
+        return redirect('/');
+    }
+    return view('auth.account');
 });

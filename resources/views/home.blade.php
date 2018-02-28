@@ -15,7 +15,7 @@
                                             <h1 class="title2">For your all Needs</h1>
                                             <p>We do business mining at internet world's largest scale for your financial investment. You will not only earn the money with buying and selling shares but also on referring your friends.</p>
                                             <div class="banner-readmore">
-                                            	                                                <a class="button banner-btn" href="http://pakshares.com/account">REGISTER</a>	                								                                            </div>
+                                            <a class="button banner-btn" href="{{'account'}}">REGISTER</a>	                								                                            </div>
                                         </div>
                                     </div>
                                 </div>
