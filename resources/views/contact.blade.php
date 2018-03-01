@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-</header><div class="breadcrumb-area bg-overlay-dark bg-6" data-load='true' data-to=".account-area" data-top="100">
+<div class="breadcrumb-area bg-overlay-dark bg-6" data-load='true' data-to=".account-area" data-top="100">
 <!--Start Contact Form Area-->
         <div class="contact-form-area fix pb-120">
             <div class="container">

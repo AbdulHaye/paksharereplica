@@ -166,7 +166,7 @@ class LoginController extends Controller
      */
     public function username()
     {
-        if(str_contains($this->user_identifier, "@")){
+        if (filter_var($this->user_identifier, FILTER_VALIDATE_EMAIL)) {
             return 'email';
         }
         return 'username';

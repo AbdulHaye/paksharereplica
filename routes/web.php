@@ -43,3 +43,10 @@ Route::get('account', function () {
     }
     return view('auth.account');
 });
+
+Route::get('dashboard', function () {
+    if(\Illuminate\Support\Facades\Auth::check()){
+        return view('dashboard');
+    }
+    return redirect('login');
+});

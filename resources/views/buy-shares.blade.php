@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('content')
-
-		</header><div class="breadcrumb-area bg-overlay-dark bg-6">	
+    <div class="breadcrumb-area bg-overlay-dark bg-6">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
