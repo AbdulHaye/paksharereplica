@@ -4,7 +4,7 @@
     <!-- Mobile Menu Area end -->
 		</header><div class="slider-area">	
 		    <div class="slider-wrapper">
-		        <div class="single-slide" style="background-image: url('http://pakshares.com/images/slider/1.jpg');">
+		        <div class="single-slide" style="background-image: url('{{url("/1.jpg")}}');">
                     <div class="banner-content">
                         <div class="container">
                             <div class="row">

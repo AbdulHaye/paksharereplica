@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-3">
-                    <span>Welcome to PakShares</span>
+                    <span>Welcome </span>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="header-icons">
@@ -62,14 +62,14 @@
                 <div class="col-md-12 lg-wrapper">
                     <div class="logo-wrapper">
                         <div class="logo">
-                            <a href='http://pakshares.com/'><img src='http://pakshares.com/images/PakShares-Logo.png'></a>                        </div>
+                        <a href='http://pakshares.com/'><img src='{{url("/2.png")}}' width="57"></a>                        </div>
                     </div>
                     <div class="header-main-content">
                         <div class="header-info">
                             <img src="http://pakshares.com/images/icons/message.png" alt="Contact us">
                             <div class="header-info-text">
 
-                                <h4>paksharesco@gmail.com</h4>
+                                <h4>youremail@gmail.com</h4>
                                 <span>You can mail us</span>
                             </div>
                         </div>
