@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'gender', 'phone', 'country', 'city', 'username', 'refer_id'
     ];
 
     /**
@@ -26,10 +26,4 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    public function test($id, $access_token){
-        $header = ["AccessToken" => "Barrier $access_token"];
-        $data = "userId=Abdulhaye&password=AbdulHaye";
-        $response = ApiCallsController::HttpClient("POST", "www.abc.com", $data, true, $header);
-    }
 }
